@@ -6,13 +6,10 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	char low;
+for (ch= ‘a’; ch<= ‘z’; ch++)
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		printf("\n");
+                  putchar(ch);
 
-	return (0);
-}
+                  putchar (‘\n’) ;
+
+                  getch();
