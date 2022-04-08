@@ -1,15 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-for (ch= ‘a’; ch<= ‘z’; ch++)
+int main(void)
+{
+	char letter;
 
-                  putchar(ch);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-                  putchar (‘\n’) ;
+	putchar('\n');
 
-                  getch();
+	return (0);
+}
