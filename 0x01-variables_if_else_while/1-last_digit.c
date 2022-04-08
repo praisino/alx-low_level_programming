@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
+
 int main(void)
 {
 	int n;
@@ -23,5 +22,4 @@ int main(void)
 	else if (L < 6)
 		printf("%s %d is %d and is less than 6 and not 0\n", str, n, L);
 
-	return (0);
-}
+	return (0)}
