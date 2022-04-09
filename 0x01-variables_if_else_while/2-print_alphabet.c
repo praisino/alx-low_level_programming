@@ -3,9 +3,12 @@
 #include <stdio.h>
 
 /* more headers goes there */
-
+ 
 /* betty style doc for function main goes there */
-
+/*
+ * A piece of code
+ *
+ * */
 int main(void)
 {
         char letter;
