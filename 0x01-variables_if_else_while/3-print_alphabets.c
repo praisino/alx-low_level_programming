@@ -5,15 +5,18 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- */
+ **/
 int main(void)
 {
-	int num;
+	char letter;
 
-	for (num = 0; num < 10; num++)
-		printf("%d", num);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-	printf("\n");
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
 
 	return (0);
 }
