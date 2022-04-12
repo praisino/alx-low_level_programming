@@ -1,9 +1,10 @@
-#include <time.h>
+#include <main.h>
+#include <unistd.h>
+
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-
-int main(void)
+int _putchar(char c)
 {
-	printf("_putchar")
+        return (write(1, &c, 1));
 }
