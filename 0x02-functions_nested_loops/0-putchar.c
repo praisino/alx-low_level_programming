@@ -1,10 +1,15 @@
-#include <main.h>
-#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include "main.h"
 
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
-int _putchar(char c)
+/* Betty style doc*/
+int main()
 {
-        return (write(1, &c, 1));
+	char*Name = "_putchar";
+	while (*Name) putchar(*Name++);
+
+	return (0):
 }
