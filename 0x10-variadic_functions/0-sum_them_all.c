@@ -1,8 +1,9 @@
 /*
  * File: 0-sum_them_all.c
- * Auth: Tolulope Fakunle
+ * Auth: Praise Taiwo 
  */
 
+#include <stdio.h>
 #include "variadic_functions.h"
 #include <stdarg.h>
 
